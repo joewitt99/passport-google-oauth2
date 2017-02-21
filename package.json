@@ -1,6 +1,6 @@
 {
-  "name": "passport-google-oauth20",
-  "version": "1.0.0",
+  "name": "@joewitt99/passport-google-oauth20",
+  "version": "1.0.3",
   "description": "Google (OAuth 2.0) authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -15,13 +15,6 @@
     "email": "jaredhanson@gmail.com",
     "url": "http://www.jaredhanson.net/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jaredhanson/passport-google-oauth2.git"
-  },
-  "bugs": {
-    "url": "http://github.com/jaredhanson/passport-google-oauth2/issues"
-  },
   "license": "MIT",
   "licenses": [
     {
@@ -31,7 +24,7 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "passport-oauth2": "1.x.x"
+    "@joewitt99/passport-dynamicoauth2": "1.x.x"
   },
   "devDependencies": {
     "make-node": "0.3.x",
